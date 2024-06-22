@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body class="bg-orange-400 flex items-center gap-24 mx-56">
+    <div class="w-96 h-72">
+        <img class="h-64 rounded-md border border-solid border-red-300" src="./list.jpg.webp" alt="">
+    </div>
+    <div class=" border border-solid border-red-400 rounded-lg mt-10" style="height: 600px; width: 600px;">
+        <div class="w-full bg-amber-300 h-24 rounded-t-md flex items-center gap-3">
+            <div><input class="bg-orange-950 w-72 h-20 mx-3 rounded-lg text-white font-bold text-xl px-2 hover:cursor-pointer" type="text"></div>
+            <div><button class="w-28 h-10 bg-green-600 rounded-md text-white font-bold text-sm">Add New Task</button></div>
+            <div><button class="w-28 h-10 bg-red-700 rounded-md text-white font-bold text-lg mx-3">Reset</button></div>
+        </div>
+
+        <div class="task-list"></div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
+
